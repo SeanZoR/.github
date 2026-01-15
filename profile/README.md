@@ -12,8 +12,8 @@
 
 <p align="center">
   <a href="https://www.port.io"><img src="https://img.shields.io/badge/Website-port.io-6C5CE7?style=for-the-badge" alt="Website"></a>
-  <a href="https://docs.getport.io"><img src="https://img.shields.io/badge/Docs-Read%20Now-00B894?style=for-the-badge" alt="Documentation"></a>
-  <a href="https://demo.getport.io"><img src="https://img.shields.io/badge/Demo-Try%20Live-0984E3?style=for-the-badge" alt="Live Demo"></a>
+  <a href="https://docs.port.io"><img src="https://img.shields.io/badge/Docs-Read%20Now-00B894?style=for-the-badge" alt="Documentation"></a>
+  <a href="https://demo.port.io"><img src="https://img.shields.io/badge/Demo-Try%20Live-0984E3?style=for-the-badge" alt="Live Demo"></a>
   <a href="https://join.slack.com/t/port-community/shared_invite/zt-1wdjwizkn-0i7g9LQeQ4rdU5_YSe6vDA"><img src="https://img.shields.io/badge/Community-Join%20Slack-E91E63?style=for-the-badge&logo=slack" alt="Slack"></a>
 </p>
 
@@ -34,15 +34,27 @@ Coding is only 10% of a developer's day. The other 90%? Operational chaos.
 
 | Agent | What It Does |
 |-------|--------------|
-| **Task Manager** | Resolves tickets from Jira to production |
-| **Incident Manager** | Self-healing incident response |
-| **Security Agent** | Auto-remediate vulnerabilities |
-| **Compliance Agent** | Maintain standards, automatically |
+| **Task Manager** | Plans your day, surfaces priority work, executes self-service actions |
+| **Incident Manager** | Acknowledges pages, pulls runbooks, coordinates response |
+| **Clarity AI** | Auto-enriches Jira tickets with service context & ownership |
+| **Custom Agents** | Build your own with Port's blueprints & guardrails |
+
+### Ask Your Portal Anything
+
+```
+"Who is on call for the payments service?"
+"Which services don't meet our Gold standard?"
+"What are my team's open PRs to review?"
+"Scaffold a new microservice for me"
+```
+
+Agents inherit your RBAC permissions. They only see what you're allowed to see.
 
 > *"Not just using AI, but making AI agents first-class citizens in the developer portal."*
 
 <p align="center">
-  <a href="https://docs.port.io/ai-agents/overview/"><img src="https://img.shields.io/badge/Learn-AI%20Agents%20Docs-blueviolet?style=for-the-badge" alt="AI Agents Documentation"></a>
+  <a href="https://docs.port.io/ai-agents/"><img src="https://img.shields.io/badge/Learn-AI%20Agents%20Docs-blueviolet?style=for-the-badge" alt="AI Agents Documentation"></a>
+  <a href="https://demo.port.io"><img src="https://img.shields.io/badge/Try-Live%20Demo-00B894?style=for-the-badge" alt="Try Demo"></a>
 </p>
 
 ---
@@ -78,11 +90,14 @@ Port meets developers in their flow. Zero context-switching. Zero friction.
 
 ### MCP Server for AI IDEs
 
-Connect your AI-powered IDE directly to Port's context lake:
+Connect your AI-powered IDE directly to Port's Context Lake:
 
 ```bash
-# Add to your MCP config
-npx @anthropic-ai/mcp-server-port
+# Install via uvx (recommended)
+uvx mcp-server-port --client-id <YOUR_ID> --client-secret <YOUR_SECRET>
+
+# Or via Docker
+docker pull ghcr.io/port-labs/port-mcp-server:latest
 ```
 
 <p align="center">
@@ -227,7 +242,7 @@ ocean sail github  # or: kubernetes, aws, jira, pagerduty...
 ```
 
 <p align="center">
-  <a href="https://docs.getport.io/quickstart"><img src="https://img.shields.io/badge/Quickstart-5%20Minutes-success?style=for-the-badge" alt="Quickstart Guide"></a>
+  <a href="https://docs.port.io/quickstart"><img src="https://img.shields.io/badge/Quickstart-5%20Minutes-success?style=for-the-badge" alt="Quickstart Guide"></a>
 </p>
 
 ---
@@ -257,7 +272,7 @@ ocean sail github  # or: kubernetes, aws, jira, pagerduty...
   <br><sub>5000+ members</sub>
 </td>
 <td align="center">
-  <a href="https://docs.getport.io/create-self-service-experiences/">
+  <a href="https://docs.port.io/actions-and-automations/">
     <strong>Build Self-Service</strong>
   </a>
   <br><sub>Tutorials & guides</sub>
@@ -278,7 +293,7 @@ ocean sail github  # or: kubernetes, aws, jira, pagerduty...
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/getaborddotio"><img src="https://img.shields.io/badge/Twitter-@getport__io-1DA1F2?style=flat-square&logo=twitter" alt="Twitter"></a>
-  <a href="https://www.linkedin.com/company/portio"><img src="https://img.shields.io/badge/LinkedIn-Port-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
+  <a href="https://twitter.com/tweetsbyport"><img src="https://img.shields.io/badge/Twitter-@tweetsbyport-1DA1F2?style=flat-square&logo=twitter" alt="Twitter"></a>
+  <a href="https://www.linkedin.com/company/getport/"><img src="https://img.shields.io/badge/LinkedIn-Port-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
   <a href="https://www.youtube.com/@getport"><img src="https://img.shields.io/badge/YouTube-Port-FF0000?style=flat-square&logo=youtube" alt="YouTube"></a>
 </p>
