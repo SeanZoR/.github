@@ -59,6 +59,31 @@ Agents inherit your RBAC permissions. They only see what you're allowed to see.
 
 ---
 
+## Why Port for AI Agents?
+
+**Context is King.** Without the right context, agents hallucinate. With Port, they don't.
+
+<table>
+<tr>
+<td align="center" width="33%">
+<h3>Context</h3>
+<p>Dynamic context enrichment from your entire stack: K8s, GitHub, Jira, PagerDuty, and 50+ integrations. Agents know your services, ownership, dependencies, and runbooks.</p>
+</td>
+<td align="center" width="33%">
+<h3>Guardrails</h3>
+<p>Input validation, output filtering, action authorization. Define what agents can and cannot do. Monitor behavior, trigger alerts on violations.</p>
+</td>
+<td align="center" width="33%">
+<h3>Observability</h3>
+<p>Full visibility into agent workflows. Track decisions, audit actions, debug issues. Know exactly what happened and why.</p>
+</td>
+</tr>
+</table>
+
+> *"Port provides the context that allows you to build and ship agents that you can actually trust."*
+
+---
+
 ## Works Where You Work
 
 Port meets developers in their flow. Zero context-switching. Zero friction.
